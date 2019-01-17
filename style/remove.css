@@ -1,0 +1,39 @@
+body {
+   background-color: #e3f9f9;
+}
+
+.ukryj {
+   display: none;
+}
+
+#button {
+   width: 90px;
+   height: 30px;
+   background-color: #5476af;
+   color: white;
+   border-radius: 5px;
+}
+
+#button:active {
+   width: 90px;
+   height: 30px;
+   background-color: #709fef;
+   color: white;
+   border-radius: 5px;
+}
+
+#napis {
+   color: red;
+}
+
+.hide {
+   visibility: hidden;
+}
+
+footer {
+   position: fixed;
+   bottom: 0px;
+   width: 100%;
+   font-size: 12px;
+   background-color: #c3f7f6;
+}

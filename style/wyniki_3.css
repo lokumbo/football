@@ -1,0 +1,15 @@
+body {
+   background-color: #e3f9f9;
+}
+
+.hide {
+   visibility: hidden;
+}
+
+footer {
+   position: fixed;
+   bottom: 0px;
+   width: 100%;
+   font-size: 12px;
+   background-color: #c3f7f6;
+}

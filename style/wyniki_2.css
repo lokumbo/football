@@ -1,0 +1,70 @@
+body {
+   background-color: #e3f9f9;
+}
+
+table, th, td {
+   border: solid black 1px;
+   border-collapse: collapse;
+}
+
+table {
+   background-color: #c3f7f6;
+}
+
+th {
+   background-color: #5476af;
+   color: white;
+   font-size: 14px;
+   padding: 3px;
+}
+
+#bigger {
+   height: 32px;
+}
+
+td {
+   padding: 5px;
+}
+
+.parzysty, .pkt_bra {
+   /* background-color: #b3e0df; */
+   background-color: #b9e5e4;
+}
+
+td:hover {
+   background-color: aqua;
+}
+
+.sklady {
+   min-width: 200px;
+   padding-left: 5px;
+}
+
+#btn_submit {
+   width: 100px;
+   height: 30px;
+   background-color: #5476af;
+   color: white;
+   border-radius: 5px;
+   disabled: disabled;
+}
+
+#btn_submit:active {
+   width: 100px;
+   height: 30px;
+   background-color: #709fef;
+   color: white;
+   border-radius: 5px;
+}
+
+.hide {
+   visibility: hidden;
+}
+
+footer {
+   position: fixed;
+   bottom: 0px;
+   width: 100%;
+   font-size: 12px;
+   background-color: #c3f7f6;
+}

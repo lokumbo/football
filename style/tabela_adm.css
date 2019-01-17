@@ -1,0 +1,111 @@
+body {
+   background-color: #e3f9f9;
+}
+
+table, th, td {
+   border: solid black 1px;
+   border-collapse: collapse;
+}
+
+th {
+   background-color: #5476af;
+   color: white;
+   font-size: 14px;
+   padding: 2px;
+}
+
+td {
+   text-align: center;
+   padding: 5px;
+}
+
+td.left {
+   text-align: left;
+}
+
+table {
+   background-color: #c3f7f6;
+}
+
+.parzysty {
+   /* background-color: #b3e0df; */
+   background-color: #b9e5e4;
+}
+
+#wyniki_4 tr:hover {
+   background-color: aqua;
+}
+
+th.zrp {
+   width: 90px;
+
+}
+
+#aktual {
+   font-size: 14px;
+}
+
+.sklady {
+   min-width: 200px;
+}
+
+#sklad td {
+   text-align: left;
+}
+
+#button, #button_1 {
+   width: 100px;
+   height: 30px;
+   background-color: #5476af;
+   color: white;
+   border-radius: 5px;
+}
+
+#button:active, #button_1:active {
+   background-color: #5476af;
+   color: white;
+   width: 100px;
+   height: 30px;
+   border-radius: 5px;
+}
+
+#submit, #button_2 {
+   width: 70px;
+   height: 30px;
+   background-color: #5476af;
+   color: white;
+   border-radius: 5px;
+}
+
+#submit:active, #button_2:active {
+   background-color: #5476af;
+   color: white;
+   width: 70px;
+   height: 30px;
+   border-radius: 5px;
+}
+
+.hidden {
+   visibility: hidden;
+}
+
+.pkt_bra {
+   /* background-color: #b3e0df; */
+   background-color: #b9e5e4;
+}
+
+#sklad td:hover {
+   background-color: aqua;
+}
+
+.hide {
+   visibility: hidden;
+}
+
+footer {
+   position: fixed;
+   bottom: 0px;
+   width: 100%;
+   font-size: 12px;
+   background-color: #c3f7f6;
+}

@@ -1,0 +1,117 @@
+body {
+   background-color: #e3f9f9;
+}
+
+table, th, td {
+   border: 1px black solid;
+   border-collapse: collapse;
+}
+
+table {
+   background-color: #c3f7f6;
+}
+
+th {
+   background-color: #5476af;
+   color: white;
+   font-size: 14px;
+   padding: 5px;
+}
+
+td.checkbox, td#date {
+   text-align: center;
+   padding: 5px;
+}
+
+td.sklady {
+   padding: 5px;
+}
+
+.parzysty {
+   /* background-color: #b3e0df; */
+   background-color: #b9e5e4;
+}
+
+.dat_pkt_bra {
+   /* background-color: #b3e0df; */
+   background-color: #b9e5e4;
+}
+
+tr:hover {
+   background-color: aqua;
+}
+
+.normal {
+   /* background-color: #b3e0df; */
+   background-color: #b9e5e4;
+}
+
+.sklady {
+   min-width: 200px;
+}
+
+#oddzielacz {
+   height: 32px;
+}
+
+table .input_punkty, table .input_bramki {
+   width: 40px;
+   background-color: tomato;
+}
+
+table .input_date {
+   background-color: tomato;
+}
+
+.left {
+   padding-left: 5px;
+}
+
+#teams {
+   display: none;
+}
+
+.add_res {
+   width: 90px;
+   height: 30px;
+   background-color: #5476af;
+   color: white;
+   border-radius: 5px;
+}
+
+.add_res:active {
+   width: 90px;
+   height: 30px;
+   background-color: #709fef;
+   color: white;
+   border-radius: 5px;
+}
+
+#but_ile_druz {
+   width: 100px;
+   height: 30px;
+   background-color: #5476af;
+   color: white;
+   border-radius: 5px;
+   disabled: disabled;
+}
+
+#but_ile_druz:active {
+   width: 100px;
+   height: 30px;
+   background-color: #709fef;
+   color: white;
+   border-radius: 5px;
+}
+
+.hide {
+   visibility: hidden;
+}
+
+footer {
+   position: fixed;
+   bottom: 0px;
+   width: 100%;
+   font-size: 12px;
+   background-color: #c3f7f6;
+}

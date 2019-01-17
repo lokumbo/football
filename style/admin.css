@@ -1,0 +1,94 @@
+
+body {
+   background-color: #e3f9f9;
+}
+
+table, th, td {
+   border: solid black 1px;
+   border-collapse: collapse;
+}
+
+table {
+   background-color: #c3f7f6;
+}
+
+th {
+   background-color: #5476af;
+   color: white;
+   font-size: 14px;
+   padding: 3px;
+}
+
+td {
+   padding: 5px;
+}
+
+.parzysty {
+   /* background-color: #b3e0df; */
+   background-color: #b9e5e4;
+}
+
+tr:hover {
+   background-color: aqua;
+}
+
+#zawodnicy {
+   min-width: 200px;
+}
+
+.ed_us {
+   width: 100px;
+}
+
+.link {
+   font-size: 14px;
+   text-align: center;
+}
+
+#edit {
+   color: #016310;
+}
+
+.dodany {
+   color: darkblue;
+}
+
+#del, .napis {
+   color: red;
+}
+
+label {
+   display: inline-block;
+   width: 130px;
+   padding-right: 20px;
+   padding-bottom: 20px;
+   text-align: right;
+}
+
+.button {
+   width: 90px;
+   height: 30px;
+   background-color: #5476af;
+   color: white;
+   border-radius: 5px;
+}
+
+.button:active {
+   width: 90px;
+   height: 30px;
+   background-color: #709fef;
+   color: white;
+   border-radius: 5px;
+}
+
+.hide {
+   visibility: hidden;
+}
+
+footer {
+   position: fixed;
+   bottom: 0px;
+   width: 100%;
+   font-size: 12px;
+   background-color: #c3f7f6;
+}
